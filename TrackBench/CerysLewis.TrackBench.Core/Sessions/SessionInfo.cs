@@ -20,7 +20,7 @@ namespace CerysLewis.TrackBench.Core.Sessions
             SampleRate == 0 ? TimeSpan.Zero : TimeSpan.FromSeconds((double)TotalFrameCount / SampleRate);
 
         public string MetadataCachePath =>
-            Path.Combine(AppPaths.Root, "Sessions", $"{Fingerprint}.json");
+            Path.Combine(AppPaths.Root, "Sessions", Fingerprint, "Markers.json");
 
         public string Fingerprint
         {
@@ -28,7 +28,7 @@ namespace CerysLewis.TrackBench.Core.Sessions
             {
                 string raw = $"{DisplayName}|{ChannelCount}|{SampleRate}|{BitsPerSample}|{TotalFrameCount}";
                 byte[] hash = SHA256.HashData(Encoding.UTF8.GetBytes(raw));
-                return Convert.ToHexString(hash)[..16];
+                return Convert.ToHexString(hash)[..16].ToUpper();
             }
         }
 
