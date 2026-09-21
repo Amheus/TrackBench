@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CerysLewis.TrackBench.App/CerysLewis.TrackBench.App.csproj" />
+  <Project Path="CerysLewis.TrackBench.CLI/CerysLewis.TrackBench.CLI.csproj" />
+  <Project Path="CerysLewis.TrackBench.Core/CerysLewis.TrackBench.Core.csproj" />
+</Solution>

@@ -1,0 +1,10 @@
+
+*.user
+/TrackBench/.vs
+
+/TrackBench/CerysLewis.TrackBench.App/obj
+/TrackBench/CerysLewis.TrackBench.App/bin
+/TrackBench/CerysLewis.TrackBench.CLI/obj
+/TrackBench/CerysLewis.TrackBench.CLI/bin
+/TrackBench/CerysLewis.TrackBench.Core/obj
+/TrackBench/CerysLewis.TrackBench.Core/bin
