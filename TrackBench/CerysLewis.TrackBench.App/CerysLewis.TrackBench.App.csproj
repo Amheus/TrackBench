@@ -8,6 +8,7 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+    <PackageReference Include="NAudio" Version="3.1.1-preview.2" />
   <ItemGroup>
     <ProjectReference Include="..\CerysLewis.TrackBench.Core\CerysLewis.TrackBench.Core.csproj" />
   </ItemGroup>
