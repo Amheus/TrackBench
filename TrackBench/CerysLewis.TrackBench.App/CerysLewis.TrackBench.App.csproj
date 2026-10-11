@@ -8,7 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
     <PackageReference Include="NAudio" Version="3.1.1-preview.2" />
+    <PackageReference Include="SkiaSharp.Views.WPF" Version="4.154.0-preview.1.26454.9" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\CerysLewis.TrackBench.Core\CerysLewis.TrackBench.Core.csproj" />
   </ItemGroup>
